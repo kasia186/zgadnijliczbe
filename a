@@ -22,7 +22,7 @@ while True:
         print("Brawo! Zgadłeś liczbę:", liczba)
         break
 
-    kontynuowac = input("Czy chcesz zagrać ponownie? (tak/nie): ").lower()
+    kontynuowac = input("Czy chcesz zagrać ponownie? (tak/nie): ")
     if kontynuowac == "nie" or kontynuowac == "Nie" or kontynuowac == "NIE":
-        print("Dziękuję za grę! Do zobaczenia!")
+        print("Dziękuję za grę! do zobaczenia!")
         exit()
